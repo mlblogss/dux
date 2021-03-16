@@ -35,7 +35,6 @@ b.xhtml?document.createElementNS("http://www.w3.org/1999/xhtml","html:script"):d
 O),s=s.replace(Q,""),g.jsExtRegExp.test(s)&&(s=I),q.deps=q.deps?q.deps.concat(s):[s],!0});tbfine=function(b,c,d){var e,g;"string"!==typeof b&&(d=c,c=b,b=null);H(c)||(d=c,c=null);!c&&G(d)&&(c=[],d.length&&(d.toString().replace(ka,"").replace(la,function(b,d){c.push(d)}),c=(1===d.length?["tbquire"]:["tbquire","exports","module"]).concat(c)));if(M){if(!(e=J))N&&"interactive"===N.readyState||T(document.getElementsByTagName("script"),function(b){if("interactive"===b.readyState)return N=b}),e=N;e&&(b||
 (b=e.getAttribute("data-tbquiremodule")),g=F[e.getAttribute("data-tbquirecontext")])}(g?g.defQueue:R).push([b,c,d])};tbfine.amd={jQuery:!0};g.exec=function(b){return eval(b)};g(q)}})(this);
 
-
 tbquire.config({
 	baseUrl: 'https://cdn.jsdelivr.net/gh/mlblogss/dux/js',
 	urlArgs: '',
@@ -52,5 +51,4 @@ tbquire.config({
 		'user'          : 'user'
 	}
 })
-
 tbquire(['main'])
