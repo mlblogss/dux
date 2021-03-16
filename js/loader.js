@@ -37,7 +37,7 @@ O),s=s.replace(Q,""),g.jsExtRegExp.test(s)&&(s=I),q.deps=q.deps?q.deps.concat(s)
 
 
 tbquire.config({
-	baseUrl: '//pic.mlcdn.chineseoh.com/themes/dux/js',
+	baseUrl: 'https://cdn.jsdelivr.net/gh/mlblogss/dux/js',
 	urlArgs: '',
 	paths: {
 		'swiper'        : 'libs/swiper.min',
